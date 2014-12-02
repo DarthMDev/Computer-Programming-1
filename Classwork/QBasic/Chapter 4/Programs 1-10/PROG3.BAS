@@ -1,0 +1,12 @@
+10 'PROGRAM 3
+20 CLS
+30 INPUT "WHAT IS THE FIRST ANGLE"; ANG1
+40 INPUT "WHAT IS THE SECOND ANGLE"; ANG2
+50 INPUT "WHAT IS THE THIRD ANGLE"; ANG3
+60 IF ANG1 + ANG2 + ANG3 < 180 THEN PRINT "This is not a triangle"
+70 IF ANG1 + ANG2 + ANG3 >= 180 THEN PRINT "This is a triangle"
+80 IF ANG1 = 90 THEN PRINT "This is a right triangle"
+90 IF ANG2 = 90 THEN PRINT "This is a right triangle"
+100 IF ANG3 = 90 THEN PRINT "This is a right triangle"
+110 END
+

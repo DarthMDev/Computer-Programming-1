@@ -1,0 +1,4 @@
+10 PRINT "AVG OF #'S | 79, 96, 83, AND 91 IS"
+20 PRINT (79 + 96 + 83 + 91) / 4
+30 END
+
